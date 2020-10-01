@@ -1,4 +1,4 @@
-# Welcome to GirlScript Chapter Patiala!
+# Welcome to GirlScript Chapter Patiala! girl are tomorrow future.  
 
 Girlscript Foundation is a non profit organisation of India. The main objective of this community is to bridge down the gender gap in the world of tech. 
 
