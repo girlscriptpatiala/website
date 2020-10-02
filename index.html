@@ -30,6 +30,7 @@ Template Name: Live Event
     <link rel="stylesheet" type="text/css" href="css/magnific-popup.css" />
     <link rel="stylesheet" type="text/css" href="css/fonts.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/extra.css" />
     <!-- favicon links -->
     <link rel="shortcut icon" type="image/icon" href="images/header/favicon.png" />
 </head>
@@ -72,15 +73,24 @@ Template Name: Live Event
                             <div class="lv_mainmenu_wrapper">
                                 <div class="lv_main_menu_wrapper">
                                     <div class="lv_main_menu lv_single_index_menu">
-                                        <ul>
-                                            <li><a href="0">Home</a></li>
+                                        <ul class="nav navbar-nav">
+                                            <li class="active"><a href="0">Home</a></li>
                                             <li><a href="1">About</a></li>
-                                             <li><a href="2">Section3</a></li>
+                                            <li><a href="2">Section3</a></li>
                                             <li><a href="3">Section 4</a></li>
                                             <li><a href="6">Section 5</a></li>
-                                            <li><a href="7">Section 6</a></li>
+                                            <li class="dropdown">
+                                                <a class="dropdown-toggle" data-toggle="dropdown">Initiatives <span class="caret"></span></a>
+                                                <div class="dropdown-menu" style="width:200px;padding:0;">
+                                                    <div class="dd-item" onclick="window.open('https://www.girlscript.tech/studentsday2020', '_blank');">World Students' Day 2020!</div>
+                                                    <div class="dd-item" onclick="window.open('https://www.girlscript.tech/gscup', '_blank');">GS Cup</div>
+                                                    <div class="dd-item" onclick="window.open('https://medium.com/girlscript-bangalore/girlscripts-education-outreach-program-cae520769ab5', '_blank');">Education Outreach Program</div>
+                                                    <div class="dd-item" onclick="window.open('https://upliftproject.tech/', '_blank');">Uplift</div>
+                                                    <div class="dd-item" onclick="window.open('https://www.youtube.com/watch?v=8sYezK3_LJI', '_blank');">LetsPy</div>
+                                                    <div class="dd-item" onclick="window.open('https://girlscriptsummit.com/', '_blank');"  style="cursor: pointer;" >GirlScript India Summit</div>
+                                                </div>
+                                            </li>
                                             <li><a href="8">Contact</a></li>
-
                                         </ul>
                                     </div>
                                 </div>
