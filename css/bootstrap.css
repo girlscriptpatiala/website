@@ -5333,6 +5333,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 
 .navbar-nav>li>.dropdown-menu {
     margin-top: 0;
+    padding: 3px;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
